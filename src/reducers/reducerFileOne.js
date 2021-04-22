@@ -10,8 +10,9 @@ export default function reducerFn(state = {
       case 'ADD_USER':
         
         return {
+            
             //we are setting up a global state!!!!!!!
-            user: action.user
+            user: action.user.userName
         }
   
       default:
